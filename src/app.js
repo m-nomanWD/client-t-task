@@ -5,6 +5,7 @@ import Login from "./components/login";
 import SignUp from "./components/signup";
 const App = () => {
   return (
+    console.log("hello")
     <Router>
       <Routes>
         <Route path="/login" element={<Login />}></Route>
