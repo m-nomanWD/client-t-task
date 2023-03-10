@@ -85,8 +85,8 @@ const SignUp = () => {
               <a
                 href="/login"
                 class="font-medium text-indigo-600 hover:text-indigo-500 focus:outline-none focus:underline transition ease-in-out duration-150"
-              >
-                <Link to={"/login"}>entrar na sua conta existente</Link>
+              >entrar na sua conta existente
+//                 <Link to={"/login"}>entrar na sua conta existente</Link>
               </a>
             </p>
           </div>{" "}
