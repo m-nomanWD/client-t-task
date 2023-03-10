@@ -49,8 +49,8 @@ const Login = () => {
               <a
                 href="/signup?redirect=%2Flogin%C2%A0-"
                 class="font-medium text-indigo-600 hover:text-indigo-500 focus:outline-none focus:underline transition ease-in-out duration-150"
-              >
-                <Link to={"/signup"}>fazer cadastro</Link>
+              >fazer cadastro
+//                 <Link to={"/signup"}>fazer cadastro</Link>
               </a>
             </p>
           </div>{" "}
