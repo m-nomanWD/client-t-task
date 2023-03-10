@@ -5,6 +5,7 @@ import Login from "./components/login";
 import SignUp from "./components/signup";
 const App = () => {
   return (
+    <>
     console.log("hello")
     <Router>
       <Routes>
@@ -12,6 +13,7 @@ const App = () => {
         <Route path="/signup" element={<SignUp />}></Route>
       </Routes>
     </Router>
+</>
   );
 };
 export default App;
